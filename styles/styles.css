@@ -1,0 +1,60 @@
+/*
+blue color: #0336ff
+yellow color: #ffde03
+red color: #ff0266
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0336ff;
+  padding: 0;
+  margin: 0;
+
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  display: inline;
+}
+
+main {
+  padding: 16px 8px;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p,
+td {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+th {
+  font-size: 16px;
+  font-weight: 500;
+}

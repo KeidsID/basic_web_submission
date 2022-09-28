@@ -1,0 +1,122 @@
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+}
+
+.flex-container-row {
+  display: flex;
+}
+
+#content {
+  flex-basis: 70%;
+
+  margin-right: 8px;
+}
+
+#content article {
+  flex-grow: 1;
+}
+
+aside {
+  flex-basis: 30%;
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    flex-direction: column;
+  }
+
+  #content,
+  aside {
+    flex-basis: auto;
+    margin: 0;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  aside table {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  aside table {
+    width: 100%;
+  }
+}
+
+.card {
+  background-color: white;
+
+  padding: 20px;
+  margin: 8px 0;
+
+  color: black;
+}
+
+.featured-img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+main h2,
+main h3 {
+  color: #ff0266;
+  margin-top: 0;
+}
+
+main p {
+  margin-bottom: 0;
+}
+
+main a,
+main a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: #ff0266;
+  text-decoration: underline;
+}
+
+main code {
+  padding: 8px;
+
+  border: 2px solid #ff0266;
+  border-radius: 4px;
+}
+
+main code span.opr {
+  color: purple;
+}
+main code span.mtd {
+  color: green;
+}
+main code span.str {
+  color: darkred;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+table {
+  text-align: left;
+
+  width: 100%;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 2px solid #ff0266;
+}
